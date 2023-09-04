@@ -1,1 +1,8 @@
-Hello Sekai !
+{% extends "base.html.twig" %}
+
+{# Permet d'override le title du fichier base.html.twig #}
+{% block title %} SymfonyProject - Accueil {% endblock %}
+
+{% block body %}
+    <h1>Hello Sekai !</h1>
+{% endblock %}
